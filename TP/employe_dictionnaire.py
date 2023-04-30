@@ -45,3 +45,21 @@ names = {
             "Michel": "Smith",
         }
 
+
+smith =[]
+mercier = []
+moulin = []
+
+for cle,valeur in names.items():
+    if valeur == "Smith":
+        smith.append(cle)
+    elif valeur == "Mercier":
+        mercier.append(cle)
+    else:
+        moulin.append(cle)
+new_dictionnaire = {
+    "Smith" : smith,
+    "Mercier" : mercier,
+    "Moulin" : moulin
+}
+print(new_dictionnaire)
