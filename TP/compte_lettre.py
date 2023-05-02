@@ -3,7 +3,7 @@
 #on dis le nombre de fois qu'un caractère est repéter dans la chaine 
 
 chaines = input("Entrée une chaine de caractère")
-caracteres_deja_selectionne = [] #on selectionne notre premier caractère
+caracteres_deja_selectionne = [] 
 selection = False
 #compte le nombre de fois que chaque caractère est présenté dans la chaine de caractère
 for i in chaines:
